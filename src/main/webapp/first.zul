@@ -1,0 +1,23 @@
+<window border="normal" hflex="main" style="margin:0px auto" title="La Paix First ZK web">
+    <grid id="formGrid" hflex="main" ctrlKeys="^h">
+        <auxhead>
+            <auxheader colspan="2" label="Registration Form" iconSclass="z-icon-user-circle-o"/>
+        </auxhead>
+        <columns visible="false">
+            <column/>
+            <column/>
+        </columns>
+        <rows>
+            <row id="nameRow">
+                User Name
+                <textbox id="nameBox" hflex="1" constraint="no empty"/>
+            </row>
+            <row>
+                Gender
+                <radio Label="Male" value="male" iconSclass="Z-icon-male" checked="true"/>
+                <radio label="Female" value="female" iconSclass="Z-icon-female"/>
+            </row>
+        </rows>
+
+    </grid>
+</window>
