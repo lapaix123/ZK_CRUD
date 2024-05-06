@@ -14,8 +14,29 @@
             </row>
             <row>
                 Gender
-                <radio Label="Male" value="male" iconSclass="Z-icon-male" checked="true"/>
-                <radio label="Female" value="female" iconSclass="Z-icon-female"/>
+                <radiogroup id="genderRadio">
+                    <radio Label="Male" value="male" iconSclass="Z-icon-male" checked="true"/>
+                    <radio label="Female" value="female" iconSclass="Z-icon-female"/>
+                </radiogroup>
+            </row>
+                      <row>
+                Birthdate
+                <datebox id="birthdateBox" hflex="1" constraint="no empty, no no today,no no future"/>
+            </row>
+            <row spans="2" align="center">
+            <hlayout>
+                <checkbox id="acceptTermBox"/>
+                <label value="Accept Term of use (Click for details)" popup="termDetail,position=end_after" style="cursor:pointer"/>
+
+            </hlayout>
+        </row>
+            <row spans="2" align="right">
+                <hlayout>
+                    <label value="Help (ctrl+h)"/>
+                    <button id="resetButton" label="Reset"/>
+                    <button id="submitButton" label="Submit" autodisable="true"/>
+                </hlayout>
+
             </row>
         </rows>
 
