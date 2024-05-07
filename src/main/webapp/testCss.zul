@@ -1,0 +1,9 @@
+<zk>
+    <datebox/>
+    <tabbox>
+        <tabs>
+            <tab label="Home"/>
+            <tab label="Dashboard"/>
+        </tabs>
+    </tabbox>
+</zk>

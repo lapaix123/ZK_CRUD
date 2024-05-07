@@ -1,4 +1,4 @@
-<window border="normal" hflex="main" style="margin:0px auto" title="La Paix First ZK web">
+<window border="normal" hflex="main" style="margin:0px auto" title="La Paix First ZK web" apply="org.example.SampleController">
     <grid id="formGrid" hflex="main" ctrlKeys="^h">
         <auxhead>
             <auxheader colspan="2" label="Registration Form" iconSclass="z-icon-user-circle-o"/>
