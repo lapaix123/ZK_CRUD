@@ -1,0 +1,6 @@
+<window apply="org.zkoss.bind.BindComposer" viewModel="@id('vm') @init(model.VariableModel)" >
+<hbox>
+<label "First Name"/>
+</hbox>
+
+</window>
